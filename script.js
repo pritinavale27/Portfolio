@@ -39,3 +39,30 @@ $(function() {
     }, 2500);
   
   });
+
+  
+
+  document.getElementById('contact-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    };
+
+    try {
+        const response = await fetch('/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+        document.getElementById('response').innerText = result.message;
+    } catch (error) {
+        document.getElementById('response').innerText = 'An error occurred. Please try again later.';
+    }
+});
