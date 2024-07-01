@@ -307,51 +307,7 @@ h2 {
                       height: 1.125rem;
                       background-color: #00ff6c; }
             
-            /* #portfolio {
-              padding: 5rem 0;
-              text-align: center; }
-              #portfolio hr {
-                margin-bottom: 3rem; }
-              #portfolio figure {
-                position: relative; }
-                #portfolio figure img {
-                  width: 100%; }
-
-                  #portfolio figure figcaption {
-                    position: absolute;
-                    top: 10px;
-                    right: 05px;
-                    bottom: 10px;
-                    left: 05px;
-                    background-color: aliceblue;
-                    opacity: 0;
-                    -webkit-transition: all .5s;
-                    -o-transition: all .5s;
-                    transition: all .5s;
-                    color: black; }
-
-                  #portfolio figure figcaption:hover {
-                    background-color: rgba(0, 255, 108, 0.6);
-                    opacity: 1; }
-                  #portfolio figure figcaption h3 {
-                    text-transform: uppercase; }
-                  #portfolio figure figcaption p {
-                    margin-bottom: 3rem; }
-                  #portfolio figure figcaption a {
-                    font-size: 2rem;
-                    color: #f3f3f3;
-                    -webkit-transition: all 0.3s;
-                    -o-transition: all 0.3s;
-                    transition: all 0.3s; }
-                    #portfolio figure figcaption a:hover {
-                      color: #232323; } */
-
-/* .Projects img{
-      height: 70%;
-      width: 70%;
-      padding: 10px;
-      margin: auto;
-} */
+            
 
 .portfolio-section {
   display: flex;
