@@ -25,7 +25,7 @@
                           <li><a class="scroll" href="#skills">Skills</a></li>
                           <li><a class="scroll" href="#Projects">Projects</a></li>
                           <li><a class="scroll" href="#contact">Contact</a></li>
-                          <li><a class="scroll" href="#Contact_Me">Contact Me</a></li>
+                          <!-- <li><a class="scroll" href="#Contact_Me">Contact Me</a></li> -->
                       </ul>
                   </nav>
                   <nav class="col-md-6 header__top--responsive hidden-lg-up">
@@ -87,9 +87,18 @@
                   </div>
               </div>
               <div class="skill col-12 col-lg-6">
-                  <div class="skills__percent">80%</div>
+                <div class="skills__percent">70%</div>
+                <div class="progress-container">
+                    <strong>Java</strong>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+              <div class="skill col-12 col-lg-6">
+                  <div class="skills__percent">75%</div>
                   <div class="progress-container">
-                      <strong>React</strong>
+                      <strong>SQL</strong>
                       <div class="progress">
                           <div class="progress-bar" style="width: 80%"></div>
                       </div>
@@ -148,7 +157,8 @@
     <div class="heading">
         <h1>Contact Me</h1>
     </div>
-    <form id="contact-form">
+    <form id="contact-form" action="/send" method="post">
+
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <label for="email">Email:</label>
