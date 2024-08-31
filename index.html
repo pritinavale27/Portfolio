@@ -120,6 +120,9 @@
   
 
   <section id="Projects">
+    <div class="heading">
+        <h1> My Work</h1>
+    </div>
   <div class="portfolio-section">
     <div class="project-card">
         <img src="/images/bank.jpg" alt="Project Image" class="project-image">
@@ -137,6 +140,27 @@
 </div>
 </section>
 
+<section id="Contact_Me">
+    <div class="form-container">
+      <div class="heading">
+          <h1>Contact Me</h1>
+      </div>
+      <form id="contact-form" action="/send" method="post">
+  
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <div class="button-container">
+              <button type="submit" class="center-button">Send</button>
+          </div>
+      </form>
+      <div id="response"></div>
+  </div>
+  </section>
+
   <section id="contact">
       <div class="container">
           <p class="lead">Do you like what you see ?</p>
@@ -152,7 +176,7 @@
       </div>
   </section>
 
-<section id="Contact_Me">
+<!-- <section id="Contact_Me">
   <div class="form-container">
     <div class="heading">
         <h1>Contact Me</h1>
@@ -171,7 +195,7 @@
     </form>
     <div id="response"></div>
 </div>
-</section>
+</section> -->
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://unpkg.com/scrollreveal/dist/scrollreveal.min.js'></script>
