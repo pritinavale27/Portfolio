@@ -306,8 +306,7 @@ h2 {
                     #skills .skill .progress-container .progress .progress-bar {
                       height: 1.125rem;
                       background-color: #00ff6c; }
-            
-            
+
 
 .portfolio-section {
   display: flex;
@@ -315,6 +314,7 @@ h2 {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  background-color: rgb(28, 28, 28);
 }
 
 .project-card {
@@ -325,6 +325,7 @@ h2 {
   margin: 10px;
   border-radius: 10px;
   flex: 0 0 auto;
+  border: 2px solid #00ff6c;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
