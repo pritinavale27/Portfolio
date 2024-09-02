@@ -314,7 +314,7 @@ h2 {
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  background-color: rgb(28, 28, 28);
+  /* background-color: rgb(28, 28, 28); */
 }
 
 .project-card {
@@ -444,6 +444,7 @@ h2 {
     width: 50%;
     margin: auto;
     overflow: hidden;
+    
 }
               
 h1 {
@@ -456,7 +457,7 @@ h1 {
 }
               
 form {
-    background: #fff;
+    background: #6d9133b5;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
